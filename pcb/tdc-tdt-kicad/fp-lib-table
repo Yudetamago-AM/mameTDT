@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/lib/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "tdc-tdt-lib")(type "KiCad")(uri "${KIPRJMOD}/lib/tdc-tdt-lib.pretty")(options "")(descr ""))
+)

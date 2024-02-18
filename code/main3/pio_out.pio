@@ -1,0 +1,29 @@
+.program pio_out
+
+loop:
+;wait 1 pin 0 ; wait until trigged by TDC
+set pins, 0x04 ; (REF,X,TRIG)=(1,0,0)
+set pins, 0x00 ; (REF,X,TRIG)=(0,0,0)
+set pins, 0x01 ; (REF,X,TRIG)=(0,0,1)
+set pins, 0x01 ; (REF,X,TRIG)=(0,0,1)
+set pins, 0x01 ; (REF,X,TRIG)=(0,0,1)
+set pins, 0x00 [10]; reset
+jmp loop
+
+% c-sdk {
+	static inline void pio_out_program_init(PIO pio, uint sm, uint offset, uint base_pin) {
+//		pio_gpio_init(pio, trig_pin);
+		for (int i = 0; i < 3; i++) {
+			pio_gpio_init(pio, base_pin+i);
+		}
+
+//		pio_sm_set_consecutive_pindirs(pio, sm, trig_pin, 1, false);
+		pio_sm_set_consecutive_pindirs(pio, sm, base_pin, 3, true);
+		pio_sm_config c = pio_out_program_get_default_config(offset);
+//		sm_config_set_in_pins(&c, trig_pin);
+		sm_config_set_set_pins(&c, base_pin, 3);
+//		sm_config_set_clkdiv(&c, 2); // 16ns each
+		pio_sm_init(pio, sm, offset, &c);
+//		pio_sm_set_enabled(pio, sm, true);
+	}
+%}

@@ -1,0 +1,550 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TDC7200PWR
+#/283572/812860/2.50/14/3/Integrated Circuit
+DEF TDC7200PWR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TDC7200PWR" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-14N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tdc7200" 1050 0 50 H I L CNN
+F4 "Time-to-Digital Converter for Time-of-Flight Applications in LIDAR, Magnetostrictive and Flow Meters" 1050 -100 50 H I L CNN "Description"
+F5 "1.2" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TDC7200PWR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TDC7200PWR" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TDC7200PWR?qs=Q2snjRlG%2FBJNiMilyUsr3A%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TDC7200PWR" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tdc7200pwr/texas-instruments?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ENABLE 1 0 0 200 R 50 50 0 0 P
+X TRIGG 2 0 -100 200 R 50 50 0 0 P
+X START 3 0 -200 200 R 50 50 0 0 P
+X STOP 4 0 -300 200 R 50 50 0 0 P
+X CLOCK 5 0 -400 200 R 50 50 0 0 P
+X NC 6 0 -500 200 R 50 50 0 0 N
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VDD 14 1200 0 200 L 50 50 0 0 P
+X VREG 13 1200 -100 200 L 50 50 0 0 P
+X SCLK 12 1200 -200 200 L 50 50 0 0 P
+X CSB 11 1200 -300 200 L 50 50 0 0 P
+X DIN 10 1200 -400 200 L 50 50 0 0 P
+X DOUT 9 1200 -500 200 L 50 50 0 0 P
+X INTB 8 1200 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS3A5223RSWR
+#/377467/812860/2.50/10/4/Switch
+DEF TS3A5223RSWR S 0 30 Y Y 1 F N
+F0 "S" 950 600 50 H V L CNN
+F1 "TS3A5223RSWR" 950 500 50 H V L CNN
+F2 "RSW(RPUQFNN10)" 950 400 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/ts3a5223" 950 300 50 H I L CNN
+F4 "0.5 Dual SPDT Bidirectional Analog Switch" 950 200 50 H I L CNN "Description"
+F5 "" 950 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 0 50 H I L CNN "Manufacturer_Name"
+F7 "TS3A5223RSWR" 950 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TS3A5223RSWR" 950 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TS3A5223RSWR?qs=nEyf2%252Bd9RBmZJQRiNjZi8g%3D%3D" 950 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "TS3A5223RSWR" 950 -400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ts3a5223rswr/texas-instruments?region=nac" 950 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VCC 1 500 -800 200 U 50 50 0 0 W
+X NO1 2 600 -800 200 U 50 50 0 0 B
+X COM1 3 1100 -200 200 L 50 50 0 0 B
+X SEL1 4 1100 -100 200 L 50 50 0 0 P
+X NC1 5 1100 0 200 L 50 50 0 0 B
+X GND 6 600 600 200 D 50 50 0 0 W
+X NC2 7 500 600 200 D 50 50 0 0 B
+X SEL2 8 0 0 200 R 50 50 0 0 B
+X COM2 9 0 -100 200 R 50 50 0 0 P
+X NO2 10 0 -200 200 R 50 50 0 0 B
+P 5 0 1 6 200 400 900 400 900 -600 200 -600 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SN74AC00PWR
+#/415999/812860/2.50/14/3/Integrated Circuit
+DEF SN74AC00PWR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN74AC00PWR" 850 200 50 H V L CNN
+F2 "SOP65P640X120-14N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/sn74ac00" 850 0 50 H I L CNN
+F4 "Texas Instruments SN74AC00PWR, NAND Quad 2 Input NAND, 2  6 V, 14-Pin TSSOP" 850 -100 50 H I L CNN "Description"
+F5 "1.2" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74AC00PWR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN74AC00PWR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AC00PWR?qs=YhsVCygOPE0x6qh0XyeSVA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SN74AC00PWR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sn74ac00pwr/texas-instruments?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 1Y 3 0 -200 200 R 50 50 0 0 P
+X 2A 4 0 -300 200 R 50 50 0 0 P
+X 2B 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 4B 13 1000 -100 200 L 50 50 0 0 P
+X 4A 12 1000 -200 200 L 50 50 0 0 P
+X 4Y 11 1000 -300 200 L 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RP2040TR13
+#/14976291/812860/2.50/57/3/Integrated Circuit
+DEF RP2040TR13 IC 0 30 Y Y 1 F N
+F0 "IC" 1850 900 50 H V L CNN
+F1 "RP2040TR13" 1850 800 50 H V L CNN
+F2 "RP2040TR13" 1850 700 50 H I L CNN
+F3 "https://www.farnell.com/datasheets/3213406.pdf" 1850 600 50 H I L CNN
+F4 "RASPBERRY-PI - RP2040TR13 - ARM MCU, RP2040 Series Microcontrollers, ARM Cortex-M0+, 32 bit, 133 MHz, 16 MB, 56 Pins" 1850 500 50 H I L CNN "Description"
+F5 "0.9" 1850 400 50 H I L CNN "Height"
+F6 "RASPBERRY-PI" 1850 300 50 H I L CNN "Manufacturer_Name"
+F7 "RP2040TR13" 1850 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1850 100 50 H I L CNN "Mouser Part Number"
+F9 "" 1850 0 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1850 -100 50 H I L CNN "Arrow Part Number"
+F11 "" 1850 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IOVDD_1 1 0 0 200 R 50 50 0 0 P
+X GPIO0 2 0 -100 200 R 50 50 0 0 P
+X GPIO1 3 0 -200 200 R 50 50 0 0 P
+X GPIO2 4 0 -300 200 R 50 50 0 0 P
+X GPIO3 5 0 -400 200 R 50 50 0 0 P
+X GPIO4 6 0 -500 200 R 50 50 0 0 P
+X GPIO5 7 0 -600 200 R 50 50 0 0 P
+X GPIO6 8 0 -700 200 R 50 50 0 0 P
+X GPIO7 9 0 -800 200 R 50 50 0 0 P
+X IOVDD_2 10 0 -900 200 R 50 50 0 0 P
+X GPIO8 11 0 -1000 200 R 50 50 0 0 P
+X GPIO9 12 0 -1100 200 R 50 50 0 0 P
+X GPIO10 13 0 -1200 200 R 50 50 0 0 P
+X GPIO11 14 0 -1300 200 R 50 50 0 0 P
+X GPIO12 15 300 -2100 200 U 50 50 0 0 P
+X GPIO13 16 400 -2100 200 U 50 50 0 0 P
+X GPIO14 17 500 -2100 200 U 50 50 0 0 P
+X GPIO15 18 600 -2100 200 U 50 50 0 0 P
+X TESTEN 19 700 -2100 200 U 50 50 0 0 P
+X XIN 20 800 -2100 200 U 50 50 0 0 P
+X XOUT 21 900 -2100 200 U 50 50 0 0 P
+X IOVDD_3 22 1000 -2100 200 U 50 50 0 0 P
+X DVDD_1 23 1100 -2100 200 U 50 50 0 0 P
+X SWCLK 24 1200 -2100 200 U 50 50 0 0 P
+X SWDIO 25 1300 -2100 200 U 50 50 0 0 P
+X RUN 26 1400 -2100 200 U 50 50 0 0 P
+X GPIO16 27 1500 -2100 200 U 50 50 0 0 P
+X GPIO17 28 1600 -2100 200 U 50 50 0 0 P
+X GPIO18 29 2000 -1300 200 L 50 50 0 0 P
+X GPIO19 30 2000 -1200 200 L 50 50 0 0 P
+X GPIO20 31 2000 -1100 200 L 50 50 0 0 P
+X GPIO21 32 2000 -1000 200 L 50 50 0 0 P
+X IOVDD_4 33 2000 -900 200 L 50 50 0 0 P
+X GPIO22 34 2000 -800 200 L 50 50 0 0 P
+X GPIO23 35 2000 -700 200 L 50 50 0 0 P
+X GPIO24 36 2000 -600 200 L 50 50 0 0 P
+X GPIO25 37 2000 -500 200 L 50 50 0 0 P
+X GPIO26/ADC0 38 2000 -400 200 L 50 50 0 0 P
+X GPIO27/ADC1 39 2000 -300 200 L 50 50 0 0 P
+X GPIO28/ADC2 40 2000 -200 200 L 50 50 0 0 P
+X GPIO29/ADC3 41 2000 -100 200 L 50 50 0 0 P
+X IOVDD_5 42 2000 0 200 L 50 50 0 0 P
+X ADC_AVDD 43 1700 900 200 D 50 50 0 0 P
+X VREG_VIN 44 1600 900 200 D 50 50 0 0 P
+X VREG_VOUT 45 1500 900 200 D 50 50 0 0 P
+X USB_DM 46 1400 900 200 D 50 50 0 0 P
+X USB_DP 47 1300 900 200 D 50 50 0 0 P
+X USB_VDD 48 1200 900 200 D 50 50 0 0 P
+X IOVDD_6 49 1100 900 200 D 50 50 0 0 P
+X DVDD_2 50 1000 900 200 D 50 50 0 0 P
+X QSPI_SD3 51 900 900 200 D 50 50 0 0 P
+X QSPI_SCLK 52 800 900 200 D 50 50 0 0 P
+X QSPI_SD0 53 700 900 200 D 50 50 0 0 P
+X QSPI_SD2 54 600 900 200 D 50 50 0 0 P
+X QSPI_SD1 55 500 900 200 D 50 50 0 0 P
+X QSPI_SS_N 56 400 900 200 D 50 50 0 0 P
+X GND 57 300 900 200 D 50 50 0 0 P
+P 5 0 1 6 200 700 1800 700 1800 -1900 200 -1900 200 700 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model W25Q16JVUXIQ
+#/15981566/812860/2.50/9/2/Integrated Circuit
+DEF W25Q16JVUXIQ IC 0 30 Y Y 1 F N
+F0 "IC" 2050 300 50 H V L CNN
+F1 "W25Q16JVUXIQ" 2050 200 50 H V L CNN
+F2 "SON50P300X200X60-9N" 2050 100 50 H I L CNN
+F3 "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q16JVUXIQ&type=datasheet" 2050 0 50 H I L CNN
+F4 "16M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI" 2050 -100 50 H I L CNN "Description"
+F5 "0.6" 2050 -200 50 H I L CNN "Height"
+F6 "Winbond" 2050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "W25Q16JVUXIQ" 2050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 2050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 2050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 2050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 2050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X DO_(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP_(IO2) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X EP 9 1100 -800 200 U 50 50 0 0 P
+X VCC 8 2200 0 200 L 50 50 0 0 P
+X ~HOLD_OR_RESET_(IO3) 7 2200 -100 200 L 50 50 0 0 P
+X CLK 6 2200 -200 200 L 50 50 0 0 P
+X DI_(IO0) 5 2200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2000 100 2000 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SKRPACE010
+#/320991/812860/2.50/4/4/Switch
+DEF SKRPACE010 S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "SKRPACE010" 650 200 50 H V L CNN
+F2 "SMT(4.2X3.2)" 650 100 50 H I L CNN
+F3 "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html" 650 0 50 H I L CNN
+F4 "Tactile Switches 4.2x3.2x2.5mm 260gf" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "ALPS Electric" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SKRPACE010" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "688-SKRPACE010" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRPACE010?qs=dHDuPHwQO79W8iY66hDbLQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SKRPACE010" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/skrpace010/alps-electric" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRLML6402
+#/1378852/812860/2.50/3/3/MOSFET (P-Channel)
+DEF IRLML6402 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IRLML6402" 450 50 50 H V L CNN
+F2 "SOT95P237X112-3N" 450 -50 50 H I L CNN
+F3 "https://datasheetspdf.com/pdf/513015/InternationalRectifier/IRLML6402/1" 450 -150 50 H I L CNN
+F4 "P-Channel MOSFET Transistor, 3.7 A, 20 V, 3-Pin SOT-23 International Rectifier IRLML6402" 450 -250 50 H I L CNN "Description"
+F5 "1.12" 450 -350 50 H I L CNN "Height"
+F6 "Infineon" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "IRLML6402" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRLML6402?qs=Gkr2N%2F2q3o277qI%252BRzUP%252Bw%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AP63203WU-7
+#/1863283/812860/2.50/6/3/Power Supply
+DEF AP63203WU-7 PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "AP63203WU-7" 850 200 50 H V L CNN
+F2 "SOT95P280X100-6N" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/AP63203WU-7.pdf" 850 0 50 H I L CNN
+F4 "Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K" 850 -100 50 H I L CNN "Description"
+F5 "1" 850 -200 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AP63203WU-7" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-AP63203WU-7" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP63203WU-7?qs=u16ybLDytRZ1JqxbuLkMJw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "AP63203WU-7" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ap63203wu-7/diodes-incorporated?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X FB 1 0 0 200 R 50 50 0 0 I
+X EN 2 0 -100 200 R 50 50 0 0 I
+X VIN 3 0 -200 200 R 50 50 0 0 W
+X BST 6 1000 0 200 L 50 50 0 0 I
+X SW 5 1000 -100 200 L 50 50 0 0 O
+X GND 4 1000 -200 200 L 50 50 0 0 W
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74LVC1G123DP,125
+#/769861/812860/2.50/8/2/Integrated Circuit
+DEF 74LVC1G123DP,125 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "74LVC1G123DP,125" 1250 200 50 H V L CNN
+F2 "SOP65P400X110-8N" 1250 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf" 1250 0 50 H I L CNN
+F4 "74LVC1G123 - Single retriggerable monostable multivibrator; Schmitt trigger inputs@en-us" 1250 -100 50 H I L CNN "Description"
+F5 "1.1" 1250 -200 50 H I L CNN "Height"
+F6 "Nexperia" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74LVC1G123DP,125" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74LVC1G123DP125" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G123DP125?qs=1sbE9T7hb3Yr0FePgJMPhw%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74LVC1G123DP,125" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74lvc1g123dp125/nexperia?region=nac" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~A 1 0 0 200 R 50 50 0 0 P
+X B 2 0 -100 200 R 50 50 0 0 P
+X ~CLR 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1400 0 200 L 50 50 0 0 P
+X REXT/CEXT 7 1400 -100 200 L 50 50 0 0 P
+X CEXT 6 1400 -200 200 L 50 50 0 0 P
+X Q 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74LVC08APW,112
+#/943820/812860/2.50/14/2/Integrated Circuit
+DEF 74LVC08APW,112 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74LVC08APW,112" 850 200 50 H V L CNN
+F2 "SOP65P640X110-14N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC08A.pdf" 850 0 50 H I L CNN
+F4 "NXP 74LVC08APW,112, Quad 2-Input AND Logic Gate, 1.2  3.6 V, 14-Pin TSSOP" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74LVC08APW,112" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74LVC08APW" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-74LVC08APW" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74LVC08APW,112" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74lvc08apw112/nexperia?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1A 1 0 0 200 R 50 50 0 0 P
+X 1B 2 0 -100 200 R 50 50 0 0 P
+X 1Y 3 0 -200 200 R 50 50 0 0 P
+X 2A 4 0 -300 200 R 50 50 0 0 P
+X 2B 5 0 -400 200 R 50 50 0 0 P
+X 2Y 6 0 -500 200 R 50 50 0 0 P
+X GND 7 0 -600 200 R 50 50 0 0 P
+X VCC 14 1000 0 200 L 50 50 0 0 P
+X 4B 13 1000 -100 200 L 50 50 0 0 P
+X 4A 12 1000 -200 200 L 50 50 0 0 P
+X 4Y 11 1000 -300 200 L 50 50 0 0 P
+X 3B 10 1000 -400 200 L 50 50 0 0 P
+X 3A 9 1000 -500 200 L 50 50 0 0 P
+X 3Y 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74LVC1G125GW,125
+#/696518/812860/2.50/5/2/Integrated Circuit
+DEF 74LVC1G125GW,125 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74LVC1G125GW,125" 850 200 50 H V L CNN
+F2 "SOT65P212X110-5N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf" 850 0 50 H I L CNN
+F4 "NXP 74LVC1G125GW,125 Buffer & Line Driver, 3-State, 1.65-5.5V, 5-Pin TSSOP" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74LVC1G125GW,125" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-74LVC1G125GW-G" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G125GW125?qs=me8TqzrmIYXtmz2PPTYwGg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74LVC1G125GW,125" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74lvc1g125gw125/nexperia?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~OE 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1000 0 200 L 50 50 0 0 P
+X VCC 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CUS10S30,H3F
+#/843541/812860/2.50/2/4/Schottky Diode
+DEF CUS10S30,H3F D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "CUS10S30,H3F" 500 250 50 H V L CNN
+F2 "1SS357TPH3F" 500 150 50 H I L CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers Single High-speed switching" 500 -50 50 H I L CNN "Description"
+F5 "1" 500 -150 50 H I L CNN "Height"
+F6 "Toshiba" 500 -250 50 H I L CNN "Manufacturer_Name"
+F7 "CUS10S30,H3F" 500 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "757-CUS10S30H3F" 500 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Toshiba/CUS10S30H3F?qs=cW4DzVrAanO4Xm6ySrHr7g%3D%3D" 500 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "CUS10S30,H3F" 500 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cus10s30h3f/toshiba?region=nac" 500 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS3A44159PWR
+#/182917/812860/2.50/16/3/Integrated Circuit
+DEF TS3A44159PWR IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TS3A44159PWR" 1150 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 1150 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ts3a44159.pdf" 1150 0 50 H I L CNN
+F4 "0.45-Ohm Quad SPDT Analog Switch Quad-Channel 2:1 Multiplexer/Demultiplexer with Two Controls" 1150 -100 50 H I L CNN "Description"
+F5 "1.2" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TS3A44159PWR" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TS3A44159PWR" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TS3A44159PWR?qs=dB0LedT%252BmmARd7quMk3vJQ%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TS3A44159PWR" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ts3a44159pwr/texas-instruments?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO_2 1 0 0 200 R 50 50 0 0 P
+X COM_2 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X NO_3 5 0 -400 200 R 50 50 0 0 P
+X COM_3 6 0 -500 200 R 50 50 0 0 P
+X NC_3 7 0 -600 200 R 50 50 0 0 P
+X IN_3-4 8 0 -700 200 R 50 50 0 0 P
+X IN_1-2 16 1300 0 200 L 50 50 0 0 P
+X NC_1 15 1300 -100 200 L 50 50 0 0 P
+X COM1 14 1300 -200 200 L 50 50 0 0 P
+X NO1 13 1300 -300 200 L 50 50 0 0 P
+X VCC 12 1300 -400 200 L 50 50 0 0 P
+X NC_4 11 1300 -500 200 L 50 50 0 0 P
+X COM_4 10 1300 -600 200 L 50 50 0 0 P
+X NO_4 9 1300 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74HC1G126GW,125
+#/1292562/812860/2.50/5/2/Integrated Circuit
+DEF 74HC1G126GW,125 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "74HC1G126GW,125" 850 200 50 H V L CNN
+F2 "SOT65P212X110-5N" 850 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G126.pdf" 850 0 50 H I L CNN
+F4 "74HC(T)1G126 - Bus buffer/line driver; 3-state@en-us" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "Nexperia" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74HC1G126GW,125" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "771-HC1G126GW125" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC1G126GW125?qs=P62ublwmbi%252BCQYB5TZ7Nhw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "74HC1G126GW,125" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/74hc1g126gw125/nexperia" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OE 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1000 0 200 L 50 50 0 0 P
+X VCC 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IRFML8244
+#/11768719/812860/2.50/3/3/MOSFET (N-Channel)
+DEF IRFML8244 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "IRFML8244" 450 50 50 H V L CNN
+F2 "SOT95P237X112-3N" 450 -50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/601026.pdf" 450 -150 50 H I L CNN
+F4 "HEXFET Power MOSFET  25V" 450 -250 50 H I L CNN "Description"
+F5 "1.12" 450 -350 50 H I L CNN "Height"
+F6 "Infineon" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "IRFML8244" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFML8244?qs=bAKSY%2FctAC4ez%2FysLA2f0A%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS-1187A-B-A-B
+#/2372661/812860/2.50/4/2/Switch
+DEF TS-1187A-B-A-B S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "TS-1187A-B-A-B" 1050 200 50 H V L CNN
+F2 "TS1187ABAB" 1050 100 50 H I L CNN
+F3 "http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf" 1050 0 50 H I L CNN
+F4 "tact switch 4x4X1.5 patch 160GF metal head waterproof" 1050 -100 50 H I L CNN "Description"
+F5 "4.05" 1050 -200 50 H I L CNN "Height"
+F6 "XKB Connectivity" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TS-1187A-B-A-B" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COM_1 A1 0 0 200 R 50 50 0 0 P
+X COM_2 B1 1200 0 200 L 50 50 0 0 P
+X NO_1 C1 0 -100 200 R 50 50 0 0 P
+X NO_2 D1 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,5 @@
+*/OldVersions/
+*tdc-tdt-kicad-backups/
+*build/
+*tmp/
+*.vscode/

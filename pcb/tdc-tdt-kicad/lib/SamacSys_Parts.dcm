@@ -1,0 +1,105 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TDC7200PWR
+D Time-to-Digital Converter for Time-of-Flight Applications in LIDAR, Magnetostrictive and Flow Meters
+K
+F http://www.ti.com/lit/gpn/tdc7200
+$ENDCMP
+#
+$CMP TS3A5223RSWR
+D 0.5 Dual SPDT Bidirectional Analog Switch
+K
+F http://www.ti.com/lit/gpn/ts3a5223
+$ENDCMP
+#
+$CMP SN74AC00PWR
+D Texas Instruments SN74AC00PWR, NAND Quad 2 Input NAND, 2  6 V, 14-Pin TSSOP
+K
+F http://www.ti.com/lit/gpn/sn74ac00
+$ENDCMP
+#
+$CMP RP2040TR13
+D RASPBERRY-PI - RP2040TR13 - ARM MCU, RP2040 Series Microcontrollers, ARM Cortex-M0+, 32 bit, 133 MHz, 16 MB, 56 Pins
+K
+F https://www.farnell.com/datasheets/3213406.pdf
+$ENDCMP
+#
+$CMP W25Q16JVUXIQ
+D 16M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q16JVUXIQ&type=datasheet
+$ENDCMP
+#
+$CMP SKRPACE010
+D Tactile Switches 4.2x3.2x2.5mm 260gf
+K
+F http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPACE010.html
+$ENDCMP
+#
+$CMP IRLML6402
+D P-Channel MOSFET Transistor, 3.7 A, 20 V, 3-Pin SOT-23 International Rectifier IRLML6402
+K
+F https://datasheetspdf.com/pdf/513015/InternationalRectifier/IRLML6402/1
+$ENDCMP
+#
+$CMP AP63203WU-7
+D Switching Voltage Regulators DCDC Conv HV Buck TSOT26 T&R 3K
+K
+F https://componentsearchengine.com/Datasheets/1/AP63203WU-7.pdf
+$ENDCMP
+#
+$CMP 74LVC1G123DP,125
+D 74LVC1G123 - Single retriggerable monostable multivibrator; Schmitt trigger inputs@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf
+$ENDCMP
+#
+$CMP 74LVC08APW,112
+D NXP 74LVC08APW,112, Quad 2-Input AND Logic Gate, 1.2  3.6 V, 14-Pin TSSOP
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC08A.pdf
+$ENDCMP
+#
+$CMP 74LVC1G125GW,125
+D NXP 74LVC1G125GW,125 Buffer & Line Driver, 3-State, 1.65-5.5V, 5-Pin TSSOP
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G125.pdf
+$ENDCMP
+#
+$CMP CUS10S30,H3F
+D Schottky Diodes & Rectifiers Single High-speed switching
+K
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30
+$ENDCMP
+#
+$CMP TS3A44159PWR
+D 0.45-Ohm Quad SPDT Analog Switch Quad-Channel 2:1 Multiplexer/Demultiplexer with Two Controls
+K
+F http://www.ti.com/lit/ds/symlink/ts3a44159.pdf
+$ENDCMP
+#
+$CMP 74HC1G126GW,125
+D 74HC(T)1G126 - Bus buffer/line driver; 3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT1G126.pdf
+$ENDCMP
+#
+$CMP IRFML8244
+D HEXFET Power MOSFET  25V
+K
+F https://datasheet.datasheetarchive.com/originals/dk/DKDS-31/601026.pdf
+$ENDCMP
+#
+$CMP TS-1187A-B-A-B
+D tact switch 4x4X1.5 patch 160GF metal head waterproof
+K
+F http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf
+$ENDCMP
+#
+#End Doc Library
